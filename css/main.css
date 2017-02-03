@@ -1,0 +1,156 @@
+body {
+	background: #b79f8e url("../img/background-1-min.jpg") no-repeat;
+	background-size: 135% auto;
+	overflow: auto;
+}
+
+* {
+	font-family: 'Muli', sans-serif;
+}
+
+.container {
+	background-color: white;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.title-logo {
+	margin-top: -10px;
+	margin-bottom: -55px;
+}
+
+.nav-bar {
+	background-color: #b3b3b3;
+	position: relative;
+	margin-left: -15px;
+	margin-right: -15px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.nav-bar a, .nav-bar a:hover {
+	text-decoration: none;
+	color: #ed0406;
+}
+
+.nav-bar a:hover {
+	color: #7e0204;
+}
+
+.nav-bar h4 {
+	font-weight: bold;
+}
+
+.section-title {
+	padding: 10px;
+	border-top: 3px solid #2d69b2;
+	border-bottom: 3px solid #2d69b2;
+	position: relative;
+	margin-left: -15px;
+	margin-right: -15px;
+	color: #ed0406;
+	font-weight: bold;
+}
+
+.flyer {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: 15px;
+}
+
+.rzr {
+	display: block;
+	margin: 0 auto;
+	width: 45%;
+	margin-top: 40px;
+	margin-bottom: -10px;
+}
+
+.about-info {
+	position: relative;
+	top: 23px;
+}
+
+.item-title {
+	font-weight: bold;
+	color: #2d69b2;
+}
+
+.photo-gallery {
+	display: block;
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 100%;
+}
+
+.pricing-info {
+	display: inline-block;
+	left: 50%;
+	background-color: #d9d9d9;
+	padding: 15px;
+	border: 2px solid #ed0406;
+	box-shadow: -2px 2px 2px grey; 
+	margin-top: 15px;
+	padding-bottom: 28px;
+	border-radius: 15px;
+}
+
+.purchase-btn {
+	padding: 15px;
+	font-size: 20px;
+	color: white;
+	background-color: #404040;
+	border: 2px solid #d9d9d9;
+	border-radius: 15px;
+	box-shadow: 0px 2px 2px grey;
+	text-decoration: none;
+}
+
+.purchase-btn:hover, .purchase-btn:visited {
+	color: white;
+}
+
+.pricing-info h2 {
+	color: #ed0406;
+}
+
+.contact-info {
+	display: inline-block;
+	color: black;
+	padding: 25px 10px 0 10px;
+}
+
+.contact-info h3, .contact-info h4 {
+	color: black;
+	font-weight: bold;
+}
+
+.contact-info h3 {
+	margin-top: -5px;
+	margin-bottom: 20px;
+}
+
+.contact-info p {
+	margin-bottom: 20px;
+}
+
+.map-responsive iframe {
+	padding: 10px;
+}
+
+footer {
+	background-color: #b3b3b3;
+	position: relative;
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: -10px;
+	border-top: 1px solid black;
+}
+
+footer a, footer a:hover {
+	text-decoration: none;
+}
+
